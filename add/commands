@@ -1,3 +1,3 @@
-git add . # current path
-git add -A # all
-git add -f # add ignored files as well
+git add . # add all changes in the current directory
+git add -A # add all changes in the entire repo (tracked + untracked + deletions)
+git add -f # force-add a file that is ignored by .gitignore
