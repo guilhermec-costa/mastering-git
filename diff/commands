@@ -1,0 +1,5 @@
+git diff                       # shows changes in the working tree that are not staged
+git diff --cached              # shows changes staged for the next commit (index vs HEAD)
+git diff --staged              # same as --cached
+git diff HEAD                  # shows differences between working tree and the last commit
+git diff <file>                # shows changes in a specific file (working tree vs index)
