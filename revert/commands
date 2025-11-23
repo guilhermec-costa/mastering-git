@@ -2,3 +2,4 @@ git revert <commit>                # creates a new commit that undoes the change
 git revert --no-commit <commit>    # applies the revert to the working tree and index without creating a commit
 git revert -n <commit>             # same as --no-commit
 git revert HEAD                    # reverts the most recent commit
+git revert HEAD -n                 # reverts the most recent commit without commiting it
