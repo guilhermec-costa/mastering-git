@@ -1,1 +1,8 @@
 git rm <file>                  # removes the file from the working tree AND stages the deletion
+git rm -r <dir>                # removes a directory recursively and stages the deletion
+git rm --cached <file>         # removes the file ONLY from the index (staging area), keeping it in the working tree
+git rm -f <file>               # forces removal of a file that has local modifications
+git rm --cached -r <dir>       # removes an entire directory from the index but keeps it in the working tree
+
+git rm *.log                   # removes all matching files and stages deletions
+git rm --dry-run <file>        # shows what would be removed without actually removing
