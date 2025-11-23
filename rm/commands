@@ -1,0 +1,1 @@
+git rm <file>                  # removes the file from the working tree AND stages the deletion
