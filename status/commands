@@ -1,3 +1,2 @@
 git status (shows untracked files, modified files in the working tree, and files staged for commit.)
-git status --untracked-files=[no|normal|all]
 git status --porcelain # useful for scripts
