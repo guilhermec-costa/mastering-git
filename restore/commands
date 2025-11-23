@@ -1,0 +1,3 @@
+git restore <file> # restore content of the file in the working tree
+git restore --staged <file> # moves file from staging area to working tree
+git restore --staged --worktree # restore staging area and working tree
