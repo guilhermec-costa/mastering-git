@@ -3,3 +3,4 @@ git diff --cached              # shows changes staged for the next commit (index
 git diff --staged              # same as --cached
 git diff HEAD                  # shows differences between working tree and the last commit
 git diff <file>                # shows changes in a specific file (working tree vs index)
+hello
