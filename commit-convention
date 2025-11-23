@@ -1,0 +1,24 @@
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+
+---
+
+Types
+
+fix: A bug fix that affects end-users.
+feat: A new feature added to the codebase.
+build: Changes that affect the build system or external dependencies (npm, Gradle, Webpack, etc.).
+chore: Routine tasks and maintenance that do not affect production code (cleanup, config updates).
+ci: Changes to CI/CD configuration or scripts (GitHub Actions, Jenkins, etc.).
+docs: Documentation updates only (README, comments, API docs, wiki).
+style: Code style changes that do not affect logic (formatting, spacing, lint fixes).
+refactor: Code changes that restructure existing code without altering its external behavior.
+perf: Performance improvements that make the code faster or more efficient.
+test: Adding, updating, or fixing tests (unit, integration, e2e).
+types:
+
+Use <type>! to indicate a breaking change.
+`feat!: remove deprecated user API`
