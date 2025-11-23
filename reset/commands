@@ -1,0 +1,7 @@
+git reset <commit>            # move HEAD and update the index to match the commit (does NOT change the working tree)
+git reset --soft <commit>     # moves HEAD only; keeps staging area and working tree unchanged
+git reset --hard <commit>     # moves HEAD, index, and working tree to the commit (DISCARDS all uncommitted changes)
+git reset --mixed <commit>    # default; updates HEAD and index, leaves working tree unchanged
+git reset <file>              # removes the file from the staging area (similar to `git restore --staged`)
+git reset --hard              # resets index and working tree to match the current HEAD
+git reset --keep <commit>     # resets HEAD while trying to keep local changes if possible
